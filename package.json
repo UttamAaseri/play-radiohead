@@ -1,0 +1,24 @@
+{
+  "name": "play-radiohead",
+  "version": "1.0.0",
+  "description": "Command line utility which opens youtube and starts playing Radiohead",
+  "repository": "UttamAaseri/play-radiohead",
+  "author": {
+    "name": "Uttam Aaseri",
+    "email": "aaseri.uttam@gmail.com"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "bin": {
+    "play-radiohead": "./bin/index.js"
+  },
+  "preferGlobal": true,
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "commander": "^2.10.0",
+    "open": "0.0.5",
+    "request": "^2.81.0"
+  }
+}
